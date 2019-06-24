@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{988A080E-E200-43D2-83B9-EE3E9074E721}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5B542592-7DA0-4500-AB0D-C6B4B8BB36E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{CAFA7F53-2E95-4CB5-93B1-96D525CC8264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Domain", "src\TauCode.Domain\TauCode.Domain.csproj", "{5A203563-50B6-4E1B-8038-122CB430FF8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nunit", "nunit", "{86C608E1-ADA1-4E8D-AC0D-4162E2AF92FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{E33F718C-86EC-4B1B-82CD-5AB46CAF4CCC}"
+	ProjectSection(SolutionItems) = preProject
+		nuget\TauCode.Domain.nuspec = nuget\TauCode.Domain.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Domain.Test", "test\TauCode.Domain.Test\TauCode.Domain.Test.csproj", "{DAA6BA82-9EE3-4DBA-B31E-FEE759F493E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A203563-50B6-4E1B-8038-122CB430FF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A203563-50B6-4E1B-8038-122CB430FF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A203563-50B6-4E1B-8038-122CB430FF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A203563-50B6-4E1B-8038-122CB430FF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA6BA82-9EE3-4DBA-B31E-FEE759F493E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA6BA82-9EE3-4DBA-B31E-FEE759F493E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA6BA82-9EE3-4DBA-B31E-FEE759F493E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA6BA82-9EE3-4DBA-B31E-FEE759F493E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A203563-50B6-4E1B-8038-122CB430FF8D} = {988A080E-E200-43D2-83B9-EE3E9074E721}
+		{DAA6BA82-9EE3-4DBA-B31E-FEE759F493E9} = {5B542592-7DA0-4500-AB0D-C6B4B8BB36E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2171426-045D-4A97-9AD5-E0E64FAE2065}
+	EndGlobalSection
+EndGlobal
