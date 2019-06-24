@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>TauCode.Domain</id>
+    <version>2.19.1.1-dev</version>
+    <authors>TauCode</authors>
+    <owners>TauCode</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>http://taucode.com/</projectUrl>
+    <description>Basic TauCode domain-aware functionality</description>
+    <releaseNotes>Added Domain Events support</releaseNotes>
+    <tags>taucode domain</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\src\TauCode.Domain\bin\Release\netstandard2.0\TauCode.Domain.dll" target="lib\netstandard2.0" />
+    <file src="..\src\TauCode.Domain\bin\Release\netstandard2.0\TauCode.Domain.pdb" target="lib\netstandard2.0" />
+  </files>
+</package>
