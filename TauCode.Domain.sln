@@ -8,8 +8,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5B542592-7DA0-4500-AB0D-C6B4B8BB36E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{CAFA7F53-2E95-4CB5-93B1-96D525CC8264}"
+	ProjectSection(SolutionItems) = preProject
+		misc\changelog.txt = misc\changelog.txt
+		misc\todo.txt = misc\todo.txt
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Domain", "src\TauCode.Domain\TauCode.Domain.csproj", "{5A203563-50B6-4E1B-8038-122CB430FF8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Domain", "src\TauCode.Domain\TauCode.Domain.csproj", "{5A203563-50B6-4E1B-8038-122CB430FF8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nunit", "nunit", "{86C608E1-ADA1-4E8D-AC0D-4162E2AF92FC}"
 EndProject
@@ -18,7 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{E33F718C
 		nuget\TauCode.Domain.nuspec = nuget\TauCode.Domain.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Domain.Test", "test\TauCode.Domain.Test\TauCode.Domain.Test.csproj", "{DAA6BA82-9EE3-4DBA-B31E-FEE759F493E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Domain.Test", "test\TauCode.Domain.Test\TauCode.Domain.Test.csproj", "{DAA6BA82-9EE3-4DBA-B31E-FEE759F493E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
