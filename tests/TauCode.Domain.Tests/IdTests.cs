@@ -2,10 +2,10 @@
 using System;
 using TauCode.Domain.Identities;
 
-namespace TauCode.Domain.Test
+namespace TauCode.Domain.Tests
 {
     [TestFixture]
-    public class IdTest
+    public class IdTests
     {
         [Test]
         public void Constructor_NoIdProvided_IsCreatedWithGeneratedId()
