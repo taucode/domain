@@ -3,10 +3,10 @@ using System;
 using System.ComponentModel;
 using TauCode.Domain.Identities;
 
-namespace TauCode.Domain.Test
+namespace TauCode.Domain.Tests
 {
     [TestFixture]
-    public class IdTypeConverterTest
+    public class IdTypeConverterTests
     {
         private TypeConverter _idTypeConverter;
 
