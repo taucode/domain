@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.Domain</id>
-    <version>3.0.0.1</version>
+    <version>4.0</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Basic TauCode domain-aware functionality</description>
     <releaseNotes>
-      1. Updated project structure.
+      1. Reorganized solutions.
     </releaseNotes>
     <tags>taucode domain</tags>
     <dependencies>
