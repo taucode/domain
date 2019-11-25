@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.Domain.NHibernate</id>
-    <version>4.0-dev-2019-24-11-13-43</version>
+    <version>4.0</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -10,12 +10,12 @@
     <projectUrl>http://taucode.com/</projectUrl>
     <description>NHibernate support for TauCode Domain</description>
     <releaseNotes>
-      In development.
+      1. Reorganized solutions.
     </releaseNotes>
     <tags>taucode domain nhibernate</tags>
     <dependencies>
       <dependency id="FluentNHibernate" version="2.1.2" />
-      <dependency id="TauCode.Domain" version="4.0.0-dev-2019-24-11-13-29" />
+      <dependency id="TauCode.Domain" version="4.0.0" />
     </dependencies>
   </metadata>
   <files>
