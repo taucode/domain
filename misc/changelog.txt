@@ -8,3 +8,8 @@
     Version: 3.0.0.1
     1. Updated project structure.
     
+2019-11-25
+==========
+    Version: 4.0
+    1. Reorganized solutions.
+    
