@@ -32,9 +32,9 @@ namespace TauCode.Domain.NHibernate.Tests.Base
     {
         protected IDbConnection Connection { get; private set; }
         protected string ConnectionString { get; private set; }
-        protected IDbInspector DbInspector { get; private set; } // todo: get rid of.
-        protected IScriptBuilder ScriptBuilder { get; private set; } // todo: get rid of.
-        protected ICruder Cruder { get; private set; } // todo: get rid of.
+        protected IDbInspector DbInspector { get; private set; }
+        protected IScriptBuilder ScriptBuilder { get; private set; }
+        protected ICruder Cruder { get; private set; }
 
         protected IDataSerializer DataSerializer { get; private set; }
 
