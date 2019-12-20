@@ -15,7 +15,7 @@
     <tags>taucode domain nhibernate</tags>
     <dependencies>
       <dependency id="FluentNHibernate" version="2.1.2" />
-      <dependency id="TauCode.Domain" version="4.0.0" />
+      <dependency id="TauCode.Domain" version="4.0.0.1-dev-2019-12-20-15-18" />
     </dependencies>
   </metadata>
   <files>
