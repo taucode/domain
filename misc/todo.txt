@@ -1,3 +1,3 @@
-2019-12-20
+﻿2019-12-20
 ==========
     1. [TauCode.Db problem] If a SQLite table creation script has e.g. VARCHAR(20) instead of (valid) TEXT, a truncation exception will be thrown.
