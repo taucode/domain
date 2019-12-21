@@ -6,7 +6,7 @@ using System.Data.SQLite;
 using TauCode.Db;
 using TauCode.Domain.NHibernate.Tests.Base;
 using TauCode.Domain.NHibernate.Types;
-using TauCode.Utils.Extensions;
+using TauCode.Extensions;
 
 namespace TauCode.Domain.NHibernate.Tests
 {

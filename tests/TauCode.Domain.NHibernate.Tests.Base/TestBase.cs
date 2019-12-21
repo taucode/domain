@@ -14,7 +14,7 @@ using TauCode.Db.SQLite;
 using TauCode.Db.SqlServer;
 using TauCode.Domain.NHibernate.Conventions;
 using TauCode.Domain.NHibernate.Tests.Persistence;
-using TauCode.Utils.Extensions;
+using TauCode.Extensions;
 
 namespace TauCode.Domain.NHibernate.Tests.Base
 {
