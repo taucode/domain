@@ -61,7 +61,7 @@ namespace TauCode.Domain.Events
             {
                 if (subscriber is IDomainEventSubscriber<T> || subscriber is IDomainEventSubscriber<IDomainEvent>)
                 {
-                    ((IDomainEventSubscriber<T>) subscriber).HandleEvent(domainEvent);
+                    ((IDomainEventSubscriber<T>)subscriber).HandleEvent(domainEvent);
                 }
             }
         }

@@ -4,6 +4,7 @@ namespace TauCode.Domain.Events
 {
     public interface IDomainEvent
     {
-        DateTime OccuredOn { get; }
+        string CorrelationId { get; }
+        DateTime OccurredAt { get; }
     }
 }
