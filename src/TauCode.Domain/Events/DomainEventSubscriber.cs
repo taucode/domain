@@ -10,7 +10,7 @@ namespace TauCode.Domain.Events
         /// Create a new domain event subscriber that executes the provided action when triggered.
         /// </summary>
         /// <param name="handle">The action that should be executed when subscriber is triggered (required)</param>
-        public DomainEventSubscriber(Action<T> handle)
+        public DomainEventSubscriber(Action<T> handle) // todo: handleR, not handle_
         {
             _handle = handle ?? throw new ArgumentNullException(nameof(handle));
         }
