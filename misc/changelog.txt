@@ -17,3 +17,7 @@
 2021-03-01
 ==========
     1. Resurrection.
+
+2021-04-17
+==========
+    1. Got rid of GUID-based 'Identity'.
