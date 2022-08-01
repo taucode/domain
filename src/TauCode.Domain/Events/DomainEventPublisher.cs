@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading;
-
-namespace TauCode.Domain.Events
+﻿namespace TauCode.Domain.Events
 {
     public class DomainEventPublisher : IDomainEventPublisher
     {
@@ -38,7 +34,7 @@ namespace TauCode.Domain.Events
         /// </summary>
         public static void Dispose()
         {
-            _current.Value = null;
+            _current.Value = null!;
         }
 
         private readonly IList<object> _subscribers;
