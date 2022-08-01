@@ -1,19 +1,18 @@
 ﻿using NUnit.Framework;
 
-namespace TauCode.Domain.Tests
+namespace TauCode.Domain.Tests;
+
+[TestFixture]
+public class DomainDummyFixture
 {
-    [TestFixture]
-    public class DomainDummyFixture
+    [Test]
+    public void DomainDummyTest()
     {
-        [Test]
-        public void DomainDummyTest()
-        {
-            // Arrange
+        // Arrange
 
-            // Act
+        // Act
 
-            // Assert
-            Assert.Pass("Added for CI/CD");
-        }
+        // Assert
+        Assert.Pass("Added for CI/CD");
     }
 }

@@ -1,10 +1,7 @@
-﻿using System;
+﻿namespace TauCode.Domain.Events;
 
-namespace TauCode.Domain.Events
+public interface IDomainEvent
 {
-    public interface IDomainEvent
-    {
-        string CorrelationId { get; }
-        DateTimeOffset OccurredAt { get; }
-    }
+    string CorrelationId { get; }
+    DateTimeOffset OccurredAt { get; }
 }
