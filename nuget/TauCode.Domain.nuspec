@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.Domain</id>
-    <version>1.5.0</version>
+    <version>1.7.0</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -13,7 +13,7 @@
       Basic TauCode domain-aware functionality
     </description>
     <releaseNotes>
-      Release 1.5.0.
+      Release 1.7.0.
     </releaseNotes>
     <tags>taucode domain</tags>
     <dependencies>
