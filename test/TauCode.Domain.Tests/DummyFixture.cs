@@ -3,10 +3,10 @@
 namespace TauCode.Domain.Tests;
 
 [TestFixture]
-public class DomainDummyFixture
+public class DummyFixture
 {
     [Test]
-    public void DomainDummyTest()
+    public void DummyTest()
     {
         // Arrange
 
