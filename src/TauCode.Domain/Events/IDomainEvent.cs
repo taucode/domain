@@ -2,6 +2,6 @@
 
 public interface IDomainEvent
 {
-    string CorrelationId { get; }
+    string? CorrelationId { get; }
     DateTimeOffset OccurredAt { get; }
 }

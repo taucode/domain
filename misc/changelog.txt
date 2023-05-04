@@ -1,4 +1,8 @@
-﻿2019-10-20
+﻿2023-05-05
+==========
+    1. Not domain event subscribers, but domain event handlers.
+
+2019-10-20
 ==========
     1. Release 3.0.
 
