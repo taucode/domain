@@ -1,31 +1,46 @@
-﻿2019-10-20
+﻿2024-10-14
 ==========
-    1. Release 3.0.
+    1. Resurrected.
+    2. Ported to .NET 8
 
-2019-11-22
+2023-05-05
 ==========
-    1. Updated project structure.
-    
-2019-11-25
-==========
-    1. Reorganized solutions.
-    
-2020-11-14
-==========
-    1. Huge dev refactoring.
+    1. Not domain event subscribers, but domain event handlers.
 
-2021-03-01
+2023-04-09
 ==========
-    1. Resurrection.
+    1. Ported from lab.
 
-2021-04-17
+2023-01-23
 ==========
-    1. Got rid of GUID-based 'Identity'.
+    1. Winter resurrection - 2023.
+
 
 2022-07-28
 ==========
     1. Release 1.3.7.
 
-2023-01-23
+2021-04-17
 ==========
-    1. Winter resurrection - 2023.
+    1. Got rid of GUID-based 'Identity'.
+
+2021-03-01
+==========
+    1. Resurrection.
+
+2020-11-14
+==========
+    1. Huge dev refactoring.
+
+2019-11-25
+==========
+    1. Reorganized solutions.
+
+2019-11-22
+==========
+    1. Updated project structure.
+
+2019-10-20
+==========
+    1. Release 3.0.
+
